@@ -1,7 +1,7 @@
 <template>
-  <div class="block w-full items-center">
-    <img class="inline-flex" alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <img class="inline-flex" alt="Vue logo" src="../assets/img/logo.png" />
+    <HelloWorld msg="Hello World!" />
   </div>
 </template>
 
