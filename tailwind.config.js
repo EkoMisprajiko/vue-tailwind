@@ -27,9 +27,16 @@ module.exports = {
           "Arial",
           "sans-serif"
         ]
+      },
+      spacing: {
+        "72": "18rem",
+        "88": "22rem",
+        "100": "25rem"
       }
     }
   },
-  variants: {},
+  variants: {
+    backgroundColor: ["responsive", "hover", "focus", "active"]
+  },
   plugins: []
 };
