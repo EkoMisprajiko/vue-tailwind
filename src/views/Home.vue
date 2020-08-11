@@ -2,7 +2,7 @@
   <div>
     <div class="flex bg-white">
       <div
-        class="px-8 py-12 max-w-xl mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:w-2/3 lg:py-12 lg:px-12 xl:pr-0"
+        class="px-8 py-12 max-w-xl mx-auto sm:max-w-xl lg:max-w-full lg:w-2/3 lg:py-12 lg:px-12 xl:pr-0"
       >
         <div class="xl:max-w-full xl:ml-auto">
           <img
