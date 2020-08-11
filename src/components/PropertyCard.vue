@@ -1,15 +1,18 @@
 <template>
-  <div class="bg-blue-400 m-auto">
-    <a href="#" class="inline-block border hover:outline-none hover:shadow-xl">
-      <div class="relative pb-3/5">
+  <div class="m-auto">
+    <a
+      href="#"
+      class="inline-block rounded-xl hover:outline-none hover:shadow-xl"
+    >
+      <div class="relative pb-4/5">
         <img
-          class="absolute h-full w-full object-cover"
+          class="absolute rounded-t-xl h-full w-full object-cover"
           :src="property.imageUrl"
           :alt="property.imageAlt"
         />
       </div>
 
-      <div class="bg-white p-6">
+      <div class="bg-white p-6 rounded-b-xl">
         <div class="flex items-baseline">
           <span
             class="inline-block bg-teal-200 text-teal-800 text-xs px-2 rounded font-semibold uppercase tracking-wide"
