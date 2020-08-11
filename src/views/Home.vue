@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="px-3 py-2 m-auto sm:px-3 md:px-3 lg:px-4 xl:px-4">
+    <div class="bg-gray-300 px-3 py-2 m-auto sm:px-3 md:px-3 lg:px-4 xl:px-4">
       <div class="flex flex-wrap m-auto">
         <div
           class="flex flex-col px-3 pt-4 pb-2 w-full sm:w-1/2 lg:w-1/3 xl:w-1/4"
