@@ -24,7 +24,7 @@
       <div class="bg-white p-6 rounded-b-xl">
         <div class="flex items-baseline">
           <span
-            class="inline-block bg-teal-200 text-teal-800 text-xs px-2 rounded font-semibold uppercase tracking-wide hidden sm:flex"
+            class="bg-teal-200 text-teal-800 text-xs px-2 rounded font-semibold uppercase tracking-wide hidden sm:flex"
             >New</span
           >
           <div
