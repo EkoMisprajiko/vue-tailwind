@@ -2,6 +2,10 @@ module.exports = {
   purge: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
   theme: {
     extend: {
+      fontSize: {
+        xxs: ".5rem",
+        xxxs: ".25rem"
+      },
       fontFamily: {
         sans: [
           "system-ui",

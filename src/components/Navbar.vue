@@ -2,20 +2,21 @@
   <header
     class="fixed w-full max-w-full bg-green-400 z-10 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
   >
-    <div class="flex items-center justify-between px-4 py-3 sm:p-0">
-      <div class="w-full mx-auto">
-        <a
-          href="#"
-          class="text-2xl leading-none font-dosis font-medium sm:text-center"
-        >
-          <img
-            class="inline-block align-middle h-10 mr-2 sm:h-15 sm:mr-4 md:h-15 md:mr-3"
-            alt="Vue Small Logo"
-            src="../assets/img/logo.png"
-          />
-          <span class="text-white font-dosis items-center">Vue.js</span>
-        </a>
-      </div>
+    <nav
+      class="px-2 pt-2 pb-4 bg-green-300 hidden sm:flex sm:p-0 sm:bg-green-400"
+    >
+      <router-link
+        class="block px-2 py-1 text-white font-semibold rounded hover:bg-green-500"
+        to="/"
+        >Home</router-link
+      >
+      <router-link
+        class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-green-500 sm:mt-0 sm:ml-2"
+        to="/about"
+        >About</router-link
+      >
+    </nav>
+    <div class="flex items-center justify-between px-5 py-3 sm:p-0">
       <div class="sm:hidden">
         <button
           @click="isOpen = !isOpen"
@@ -36,10 +37,23 @@
           </svg>
         </button>
       </div>
+      <div>
+        <a
+          href="#"
+          class="text-2xl leading-none font-dosis font-medium sm:text-center"
+        >
+          <img
+            class="inline-block align-middle h-10 mr-2 sm:h-15 sm:mr-4 md:h-15 md:mr-3"
+            alt="Vue Small Logo"
+            src="../assets/img/logo.png"
+          />
+          <span class="text-white font-dosis items-center">Vue.js</span>
+        </a>
+      </div>
     </div>
     <nav
       :class="isOpen ? 'block' : 'hidden'"
-      class="px-2 pt-2 pb-4 bg-green-300 sm:flex sm:p-0 sm:bg-green-400"
+      class="px-2 pt-2 pb-4 bg-green-300"
     >
       <router-link
         class="block px-2 py-1 text-white font-semibold rounded hover:bg-green-500"

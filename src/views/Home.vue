@@ -44,14 +44,26 @@
       </div>
     </div>
 
-    <div class="bg-gray-300 px-3 py-2 m-auto sm:px-3 md:px-3 lg:px-4 xl:px-4">
+    <div class="bg-gray-300 px-2 py-2 m-auto sm:px-3 md:px-3 lg:px-4 xl:px-4">
       <div class="flex flex-wrap m-auto">
         <div
-          class="flex flex-col px-3 pt-4 pb-2 w-full sm:w-1/2 lg:w-1/3 xl:w-1/4"
+          class="flex flex-col px-2 pt-4 pb-2 w-1/2 sm:w-1/2 lg:w-1/3 xl:w-1/4"
           v-for="property in properties"
           :key="property"
         >
           <PropertyCard :property="property" />
+        </div>
+        <div class="fixed bottom-0 right-0 m-3">
+          <button
+            class="rounded-full h-16 w-16 flex items-center justify-center shadow-lg bg-blue-500 hover:bg-blue-600 focus:outline-none active:bg-blue-800 text-xs text-white uppercase tracking-wider font-semibold sm:text-base"
+          >
+            <svg class="h-6 w-6 fill-current">
+              <path
+                fill-rule="evenodd"
+                d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"
+              />
+            </svg>
+          </button>
         </div>
       </div>
     </div>
